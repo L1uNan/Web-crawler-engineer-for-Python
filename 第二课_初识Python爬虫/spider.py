@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 import requests
@@ -18,3 +18,5 @@ for item in pattern:
     comments.append(item.string)
 df = pandas.DataFrame(comments)
 df.to_csv('comments.csv')
+
+# learn giting
